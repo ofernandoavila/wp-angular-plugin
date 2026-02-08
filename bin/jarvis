@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+use Ofernandoavila\WpAngularPlugin\Console\Console;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$console = new Console();
+echo PHP_EOL;
+$console->run();

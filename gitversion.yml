@@ -1,0 +1,21 @@
+mode: Mainline
+next-version: 0.0.1
+branches:
+  develop:
+    tag: beta
+    increment: None
+  release:
+    tag: rc
+    increment: None
+  master:
+    tag: ""
+    increment: None
+  hotfix:
+    tag: rc
+    increment: None
+  feature:
+    tag: alpha
+    increment: None
+ignore:
+  sha: []
+merge-message-formats: {}
